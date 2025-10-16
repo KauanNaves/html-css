@@ -1,0 +1,1 @@
+Criar um site que contenha 2 imagens, uma no conteúdo e outro no favicon

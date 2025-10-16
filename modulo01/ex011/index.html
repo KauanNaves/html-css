@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Trabalhando com imagens dinâmicas</h1>
+    <p>Tente abrir este site em vários dipositivos diferentes ou tente aumentar e diminuir o tamanho de seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/foto-m.png" type="image/png">
+        <img src="images/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" controls>
+        <source src="audios/Last Cappuccino in Rio - Chris Haugen.mp3" type="audio/mpeg">
+        <p>Seu navegador não consegue reproduzir áudio. <a href="audios/Last Cappuccino in Rio - Chris Haugen.mp3">Clique aqui para baixar o arquivo MP3.</a></p>
+    </audio>
+    <h1>Reproduzindo Vídeos</h1>
+    <p>Vamos aprender a reproduzir vídeos em HTML5 <br>Este vídeo esta hospedado em meu próprio computador</p>
+    <video controls width="500" poster="images/limoes-capa.png">
+        <source src="videos/meu-video.mp4" type="video/mp4">
+    </video>  
+    <h1>Inserindo vídeo do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jPWsBuiy1rE?si=oMXMLJcWC_isK9L4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>Inserindo vídeo do Vímeo</h1>
+    <iframe src="https://player.vimeo.com/video/74655666?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"width="750" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Animation Reel"></iframe>
+
+</body>
+</html>

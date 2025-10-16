@@ -1,0 +1,11 @@
+Replicar o seguinte texto em HTML5
+
+*Um
+**Dois
+***Três
+****Quatro
+
+****Quatro
+***Três
+**Dois
+*Um
